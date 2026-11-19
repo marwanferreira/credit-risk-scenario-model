@@ -1,0 +1,10 @@
+scenario,portfolio,rate_contrib,spread_contrib,total_contrib,rate_pct,spread_pct,net_pct,input_type
+January month-end to December month-end 2022 benchmark repricing,USD,-0.12539999999999998,0.0,-0.12539999999999998,-12.54,0.0,-12.54,observed rate moves; spread moves set to 0 by design
+January month-end to December month-end 2022 benchmark repricing,CAD,-0.09119999999999998,0.0,-0.09119999999999998,-9.119999999999997,0.0,-9.119999999999997,observed rate moves; spread moves set to 0 by design
+January month-end to December month-end 2022 benchmark repricing,EUR,-0.15166529616131857,0.0,-0.15166529616131857,-15.166529616131857,0.0,-15.166529616131857,observed rate moves; spread moves set to 0 by design
+Common spread widening,USD,0.0,-0.009,-0.009,0.0,-0.8999999999999999,-0.8999999999999999,illustrative designed stress (no historical calibration)
+Common spread widening,CAD,0.0,-0.009,-0.009,0.0,-0.8999999999999999,-0.8999999999999999,illustrative designed stress (no historical calibration)
+Common spread widening,EUR,0.0,-0.03,-0.03,0.0,-3.0,-3.0,illustrative designed stress (no historical calibration)
+Risk-off with a bond rally,USD,0.03,-0.009,0.020999999999999998,3.0,-0.8999999999999999,2.0999999999999996,illustrative designed stress (differentiated spreads are hypotheses)
+Risk-off with a bond rally,CAD,0.03,-0.009,0.020999999999999998,3.0,-0.8999999999999999,2.0999999999999996,illustrative designed stress (differentiated spreads are hypotheses)
+Risk-off with a bond rally,EUR,0.03,-0.05399999999999999,-0.023999999999999994,3.0,-5.3999999999999995,-2.3999999999999995,illustrative designed stress (differentiated spreads are hypotheses)

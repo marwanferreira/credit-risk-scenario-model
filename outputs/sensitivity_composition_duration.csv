@@ -1,0 +1,22 @@
+test,scenario,portfolio,parameter,value,rate_pct,spread_pct,net_pct,input_type
+composition,Common spread widening,USD,muni weight (complement ust),0.1,0.0,-0.30000000000000004,-0.30000000000000004,illustrative
+composition,Common spread widening,USD,muni weight (complement ust),0.3,0.0,-0.8999999999999999,-0.8999999999999999,illustrative
+composition,Common spread widening,USD,muni weight (complement ust),0.6,0.0,-1.7999999999999998,-1.7999999999999998,illustrative
+composition,Common spread widening,CAD,prov weight (complement goc),0.1,0.0,-0.30000000000000004,-0.30000000000000004,illustrative
+composition,Common spread widening,CAD,prov weight (complement goc),0.3,0.0,-0.8999999999999999,-0.8999999999999999,illustrative
+composition,Common spread widening,CAD,prov weight (complement goc),0.6,0.0,-1.7999999999999998,-1.7999999999999998,illustrative
+composition,Common spread widening,EUR,snp weight (complement sp),0.1,0.0,-3.0,-3.0,illustrative
+composition,Common spread widening,EUR,snp weight (complement sp),0.3,0.0,-3.0,-3.0,illustrative
+composition,Common spread widening,EUR,snp weight (complement sp),0.6,0.0,-3.0,-3.0,illustrative
+composition,Risk-off with a bond rally,EUR,snp weight (complement sp),0.1,3.0,-4.8,-1.8000000000000003,illustrative
+composition,Risk-off with a bond rally,EUR,snp weight (complement sp),0.3,3.0,-5.3999999999999995,-2.3999999999999995,illustrative
+composition,Risk-off with a bond rally,EUR,snp weight (complement sp),0.6,3.0,-6.3,-3.2999999999999994,illustrative
+spread duration,Common spread widening,USD,spread duration of spread-bearing sleeves (years),4.0,0.0,-0.6,-0.6,illustrative
+spread duration,Common spread widening,CAD,spread duration of spread-bearing sleeves (years),4.0,0.0,-0.6,-0.6,illustrative
+spread duration,Common spread widening,EUR,spread duration of spread-bearing sleeves (years),4.0,0.0,-2.0,-2.0,illustrative
+spread duration,Common spread widening,USD,spread duration of spread-bearing sleeves (years),6.0,0.0,-0.8999999999999999,-0.8999999999999999,illustrative
+spread duration,Common spread widening,CAD,spread duration of spread-bearing sleeves (years),6.0,0.0,-0.8999999999999999,-0.8999999999999999,illustrative
+spread duration,Common spread widening,EUR,spread duration of spread-bearing sleeves (years),6.0,0.0,-3.0,-3.0,illustrative
+spread duration,Common spread widening,USD,spread duration of spread-bearing sleeves (years),8.0,0.0,-1.2,-1.2,illustrative
+spread duration,Common spread widening,CAD,spread duration of spread-bearing sleeves (years),8.0,0.0,-1.2,-1.2,illustrative
+spread duration,Common spread widening,EUR,spread duration of spread-bearing sleeves (years),8.0,0.0,-4.0,-4.0,illustrative

@@ -1,0 +1,17 @@
+check,result,detail
+weights sum to one per portfolio (base),PASS,"{'CAD': 1.0, 'EUR': 1.0, 'USD': 1.0}"
+weights sum to one per portfolio (composition variants),PASS,
+zero shock produces zero P&L,PASS,
+100 bp equals 0.01 in decimal yield,PASS,
+"higher benchmark rate lowers value (all sleeves, D_rate>0)",PASS,
+higher spread lowers value (sleeves with D_spread>0); zero for government,PASS,
+base common widening USD = -0.90%,PASS,-0.900000%
+base common widening CAD = -0.90%,PASS,-0.900000%
+base common widening EUR = -3.00%,PASS,-3.000000%
+"base risk-off USD: rate +3.00%, spread -0.90%, net +2.10%",PASS,"got +3.000000%, -0.900000%, +2.100000%"
+"base risk-off CAD: rate +3.00%, spread -0.90%, net +2.10%",PASS,"got +3.000000%, -0.900000%, +2.100000%"
+"base risk-off EUR: rate +3.00%, spread -5.40%, net -2.40%",PASS,"got +3.000000%, -5.400000%, -2.400000%"
+contributions reconcile before rounding (sleeve and portfolio),PASS,max abs error 0.00e+00
+EUR common stress flat across seniority mix and sleeve swap,PASS,"mix 10/30/60%: [-3.0, -3.0, -3.0]; swapped 30/70: -3.000000%"
+"historical case: three validated series, 12 monthly common observations",PASS,Jan 2022-01-31 -> Dec 2022-12-30
+no cross-currency P&L aggregation,PASS,

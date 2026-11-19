@@ -1,0 +1,10 @@
+portfolio,sleeve,sleeve_label,weight,d_rate,d_spread,input_type,table,scenario,rate_shock_bp,spread_shock_bp
+USD,ust,US Treasury,0.7,6.0,0.0,illustrative (synthetic normalization assumption),sleeves,,,
+USD,muni,Taxable US state/local proxy,0.3,6.0,6.0,illustrative (synthetic normalization assumption),sleeves,,,
+CAD,goc,Government of Canada,0.7,6.0,0.0,illustrative (synthetic normalization assumption),sleeves,,,
+CAD,prov,Canadian provincial proxy,0.3,6.0,6.0,illustrative (synthetic normalization assumption),sleeves,,,
+EUR,sp,French bank senior preferred proxy,0.7,6.0,6.0,illustrative (synthetic normalization assumption),sleeves,,,
+EUR,snp,French bank senior non-preferred proxy,0.3,6.0,6.0,illustrative (synthetic normalization assumption),sleeves,,,
+,,,,,,observed rate moves; spread moves set to 0 by design,scenarios,January month-end to December month-end 2022 benchmark repricing,observed Jan-Dec month-end change,"{""ust"": 0, ""muni"": 0, ""goc"": 0, ""prov"": 0, ""sp"": 0, ""snp"": 0}"
+,,,,,,illustrative designed stress (no historical calibration),scenarios,Common spread widening,"{""USD"": 0, ""CAD"": 0, ""EUR"": 0}","{""ust"": 0, ""muni"": 50, ""goc"": 0, ""prov"": 50, ""sp"": 50, ""snp"": 50}"
+,,,,,,illustrative designed stress (differentiated spreads are hypotheses),scenarios,Risk-off with a bond rally,"{""USD"": -50, ""CAD"": -50, ""EUR"": -50}","{""ust"": 0, ""muni"": 50, ""goc"": 0, ""prov"": 50, ""sp"": 75, ""snp"": 125}"
